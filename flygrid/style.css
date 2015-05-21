@@ -1,0 +1,80 @@
+/*-----------------*/
+/* Style Code Here */
+/*-----------------*/
+
+/*Standard Styling*/
+h1 {
+	font-family:"Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+	font-size:4em;
+	color:#7FDBFF;
+	margin-bottom:5px;
+	text-align:center;
+}
+
+body {
+      background-color: #F9F9F9;
+      font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      -webkit-touch-callout: none;
+}
+    
+section {
+      padding: 10px 10px;
+      text-align:center;
+}
+    
+section > * {
+      margin: 10px;
+}
+
+.center {
+      text-align: center;
+}
+
+ /* Button - Google Material Design*/
+.button{
+    display:inline-block;
+    position: relative;
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 2px;
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #646464;
+}
+    
+.button > paper-ripple {
+    border-radius: 2px;
+    overflow: hidden;
+    color:#7FDBFF;
+}
+    
+.button.raised {
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+    
+.button.raised:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s;
+}
+
+/*Grid Layout*/
+#grid{
+	width:960px;
+	padding: 20px 20px 20px 20px;
+	border:none;
+	margin:auto;
+	overflow:auto;
+}
+
+.cell{
+	background-color: #F9F9F9;
+	float:left;
+}
+
+.cellHover{
+	background-color: #7FDBFF;
+}
